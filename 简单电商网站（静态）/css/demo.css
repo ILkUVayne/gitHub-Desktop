@@ -1,0 +1,290 @@
+html{
+	font: 12px simsun;
+}
+body{
+	margin: 0;
+	padding: 0;
+}
+ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+p{
+	margin: 0;
+	padding: 0;
+}
+a{
+	/*color: black;*/
+}
+a:hover{
+	/*color: red;*/
+}
+.clearfix:after{
+	content: '\200B';
+	height: 0;
+	display: block;
+	clear: both;
+}
+.clearfix{
+	zoom:1;
+}
+.common{
+	margin: 0 auto;
+	width: 75%;
+	min-width: 970px;
+}
+.topmsg{
+	background-color: #f7f7f7;
+	border-bottom: 1px solid #d8d8d8;
+}
+.topmsg-1{
+	padding: 5px 0;
+}
+.topmsg-1 span{
+	float: left;
+}
+.topmsg-1 ul li{
+	float: right;
+	padding: 0 7px;
+}
+.header{
+
+}
+.header img{
+	float: left;
+}
+.header-inpt{
+	float: right;
+	margin-top: 3%;
+	/*height: 2rem;*/
+	background-color: #f9f9f9;
+	border: 1px solid #c9c9c9;
+}
+.header-inpt-in{
+	margin: .5rem 5rem .5rem .5rem;
+	padding: .5rem;
+	background-color: #fff;
+	border:.1px solid #a9a9a9;
+	border-right: none;
+}
+.header-inpt-in input{
+	outline: none;
+	border: none;
+	width: 35rem;
+}
+.nav{
+	/*padding: .4rem 0 0 .4rem;*/
+	border-bottom: .2rem solid #0266a3;
+}
+.nav ul{
+
+}
+.nav ul li{
+	float: left;
+
+}
+.nav ul li a{
+	display: block;
+	padding: .5rem .8rem;
+}
+.nav ul li a:hover{
+	background-color: #0266a3;
+	color: #fff;
+}
+.content-1{
+	padding-top: 1rem;
+}
+.content-1-l{
+	float: left;
+	width: 20%;
+}
+.content-1-l p{
+	padding-left:1.4rem; 
+	line-height: 2.3rem;
+	background-color: #0266a3;
+	color: #fff;
+}
+.content-1-l ul{
+	padding: .4rem;
+	background-color: #ebf0f6;
+}
+.content-1-l ul li{
+	padding-left: 2rem;
+	line-height: 2.4rem;
+}
+.content-1-m{
+	float: left;
+}
+.content-1-r{
+	float: right;
+}
+.content-1-r1{
+	margin-bottom: 2rem;
+}
+.content-2{
+	margin: 1rem auto;
+	border-top: .21rem solid #c3d7e4;
+}
+.content-2 p{
+	padding: 1rem 0 1rem 1.4rem;
+	/*line-height: 2.3rem;*/
+	background-color: #ecf1f7;
+}
+.content-3{
+	margin-top:1rem; 
+}
+.content-3 p{
+	font-size: 1.2rem;
+}
+.content-3 span{
+	padding: 0 .3rem;
+}
+.content-3-l{
+	float: left;
+	width: 72%;
+	border: 1px solid #cacaca;
+}
+.content-3-l-top{
+	margin: 1.4rem 1.7rem;
+}
+.content-3-l-top ul{
+	/*margin: 1.4rem 1.7rem;*/
+	width: 100%;
+}
+.content-3-l-top li{
+	float: left;
+	width: 50%;
+	/*height: 50px;*/
+	/*background-color: red;*/
+}
+.content-3-l-top-left{
+	float: left;
+	padding: 1.5rem .2rem;
+	border: 1px solid #cacaca;
+}
+.p1{
+	line-height: 3.2rem;
+}
+.p4{
+	line-height: 4rem;
+}
+.content-3-l-top-right{
+	float: left;
+	padding-left:.6rem; 
+}
+.mid-line{
+	margin: 1rem ;
+	width: 100%;
+	height: .2rem;
+	background-color: #eee;
+}
+.content-3-r{
+	float: right;
+	width:26%;
+	border: 1px solid #cacaca;
+}
+.content-3-r p{
+	line-height:2rem;
+	font-size: 1.1rem;
+}
+.content-3-r p a{
+	color: #000;
+}
+.content-3-r p a:hover{
+	color: red;
+	text-decoration: underline;
+}
+.content-3-r-imgbox{
+	padding: 1.4rem 0 0 1.5rem;
+	margin: .4rem;
+}
+.content-3-r-link{
+	padding: 1rem;
+	text-align: center;
+}
+.content-4{
+
+}
+.content-4-l{
+	float: left;
+	margin-top: 3rem;
+	position: relative;
+	width: 70%;
+	padding: .5rem .9rem;
+	border: 1px solid #cacaca;
+	border-top: .2rem solid #00b0e7;
+}
+.content-4-l-linkp{
+	position: absolute;
+	top: -2rem;
+	right: 0;
+}
+.content-4-l-linkp a{
+	color: #00b0e7;
+	font-size: 1.2rem;
+	font-weight: bold;
+}
+.content-4-l ul li{
+	float: left;
+	/*padding-left:.2rem; */
+	width: 25%;
+}
+.content-4-l ul li p{
+	text-align: center;
+	padding: .5rem 0;
+}
+.content-4-r{
+	float: right;
+}
+.content-4-r-top{
+	border:1px solid #cacaca; 
+	/*width: 18.2rem;*/
+}
+.content-4-r-bot{
+	margin-top: 2.4rem;
+	/*width: 18.2rem;*/
+}
+.footer{
+	margin-top:1rem; 
+	padding: 1.5rem 0;
+	border-top: 1px solid #cacaca;
+	border-bottom: .3rem solid #0266a3;
+}
+.footer-p{
+	float: left;
+	padding:.7rem 0; 
+}
+.footer ul li a{
+	color: #000;
+}
+.footer ul li a:hover{
+	color: red;
+	text-decoration: underline;
+}
+.footer-info{
+	text-align: center;
+}
+.footer li{
+	float: left;
+	padding: 0 .5rem;
+	line-height: 2.5rem;
+}
+.footer-li{
+	line-height: 3.5rem;
+	width: 58rem;
+	margin: 0 auto;
+}
+.footer-li li{
+	float: left;
+	padding:0 .8rem;
+}
+.footer-li li a{
+	color: #000;
+}
+.footer-li p{
+	line-height: 3.5rem;
+}
